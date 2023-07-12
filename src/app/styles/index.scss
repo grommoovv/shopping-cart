@@ -1,0 +1,28 @@
+@import './normalize.scss';
+
+:root {
+  --color-primary: #222;
+  --color-accent: #bebebe;
+}
+
+body {
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    'Sego';
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--color-primary);
+}
+
+a {
+  color: inherit;
+}
+
+.__layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  main {
+    flex: 1 1 auto;
+  }
+}
